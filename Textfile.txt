@@ -1,0 +1,33 @@
+Step 1: Create an AWS Elastic Beanstalk Environment for PHP
+Sign in to AWS Console and navigate to AWS Elastic Beanstalk.
+
+Click Create Application.
+
+Enter an Application Name (e.g., php-app).
+
+Under Platform, select PHP.
+
+Choose an Environment Type:
+
+Select Web Server Environment.
+
+Click Create—AWS will provision resources
+
+Deploy the PHP file to Elastic Beanstalk:
+
+Go to AWS Elastic Beanstalk dashboard.
+
+Select the created environment.
+
+Click Upload and Deploy.
+
+Choose the ZIP file containing your index.php.
+
+Click Deploy.
+
+Step 3: Create an AWS S3 Bucket to Store PHP Updates
+Navigate to AWS S3 and click Create Bucket.
+
+Set a Bucket Name (e.g., php-updates-bucket).
+
+Configure bucket settings and click Create.
