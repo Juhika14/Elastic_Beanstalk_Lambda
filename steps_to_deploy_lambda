@@ -1,0 +1,10 @@
+Steps to Deploy:
+Go to AWS Lambda and create a new function.
+
+Select Python 3.x as the runtime.
+
+Attach an S3 trigger for sourcebucket123456.
+
+Assign permissions to allow Lambda to access S3 (AmazonS3FullAccess).
+
+Deploy the function.
